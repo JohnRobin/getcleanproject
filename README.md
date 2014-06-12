@@ -1,14 +1,14 @@
-#Readme file for Getting and Cleaning Data Project
+# Readme file for Getting and Cleaning Data Project
 
-This file descrbes the working of the run_analysis.R script file.The data set is stored in the folder"UCI HAR Dataset" of the R working directory.
+## This file descrbes the working of the run_analysis.R script file.The data set is stored in the folder"UCI HAR Dataset" of the R working directory.
 
-1 First all of the data required are read into working variables:
+1 First all of the data required are read into working variables
 
-*The full set of test data is read into TestData from the x_test.txt file
-*The full set of training data is read into TrainData from the x_train.txt file
-*The test and training subject id's are read into TestSubjects and TrainSubjects from the subjects_test.txt and subjects_train.txt files
-*The test and training activities are read into TestActivity and TrainActivity from the y_test.txt and y_train.txt files
-*The variable names for the data are read into ColumnNames (from the features.txt file), and it is then turned into a character vector
+* The full set of test data is read into TestData from the x_test.txt file
+* The full set of training data is read into TrainData from the x_train.txt file
+* The test and training subject id's are read into TestSubjects and TrainSubjects from the subjects_test.txt and subjects_train.txt files
+* The test and training activities are read into TestActivity and TrainActivity from the y_test.txt and y_train.txt files
+* The variable names for the data are read into ColumnNames (from the features.txt file), and it is then turned into a character vector
 
 2 Now three additional columns are added to the TestData and TrainData variables
 
