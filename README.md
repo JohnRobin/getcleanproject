@@ -1,4 +1,4 @@
-# Readme file for Getting and Cleaning Data Project
+# Readme file for Getting and Cleaning Data course project
 
 ## This file descrbes the working of the run_analysis.R script file.The data set is stored in the folder"UCI HAR Dataset" of the R working directory.
 
