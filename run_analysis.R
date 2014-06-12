@@ -48,7 +48,7 @@ rownames(TheMeanData)=1:dim(TheMeanData)[1]                             # Reset 
 write.table(TheMeanData,"Themeandata.txt",sep=",")
 #
 # Now average the data by subject and activity
-# Melt the data to separate out each variable by subject and activity and test/train
+# Melt the data to separate out each variable by subject and activity
 #
 TheMeltedData <- melt(TheMeanData,id=names(TheMeanData)[1:3],measure.vars=names(TheMeanData)[4:length(names(TheMeanData))])
 #
