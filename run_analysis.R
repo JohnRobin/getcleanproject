@@ -1,3 +1,4 @@
+# Script file for Getting and Cleaning Data project
 # First read in all of the data required
 TestData <- read.table("UCI HAR Dataset/test/x_test.txt")               # Read the full test data
 TrainData <- read.table("UCI HAR Dataset/train/x_train.txt")            # Read the full training data
